@@ -39,7 +39,7 @@
 
 <!-- wp:list {"ordered":true} -->
 <ol>
-<li>Download the source code from the github repository above.</li>
+<li>Download the source code from the Github repository above.</li>
 <li>Delete the <code>app.js</code> file.</li>
 <li>Implement the JavaScript code in your own <code>app.js file.</code></li>
 <li>Every time the button is clicked, the background should changes color and you should show the Hex value of the color.</li>
