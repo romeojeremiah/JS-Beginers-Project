@@ -1,32 +1,51 @@
-<p><strong><img class="aligncenter size-full wp-image-110" src="https://jsbeginners.com/wp-content/uploads/2019/05/hex-change-backgound-color-javascript-project.jpg" alt="hex change background color javascript project" width="800" height="800" /></strong> <strong>Hosted Project: </strong><a href="https://romeojeremiah.github.io/hex-color-background-project">https://romeojeremiah.github.io/hex-color-background-project</a></p>
+<strong><img class="aligncenter size-full wp-image-131" src="https://jsbeginners.com/wp-content/uploads/2019/05/random-quote-javascript-project.png" alt="random quote javascript project" width="600" height="600" /></strong>
+
+<strong>Hosted Project: </strong><a href="https://romeojeremiah.github.io/Random-Quotes-Project/">https://romeojeremiah.github.io/Random-Quotes-Project/</a>
+
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p><strong>Github Source Files: </strong><a href="https://github.com/romeojeremiah/hex-color-background-project">https://github.com/romeojeremiah/hex-color-background-project</a></p>
+
+<strong>Github Source Files: </strong><a href="https://github.com/romeojeremiah/Random-Quotes-Project">https://github.com/romeojeremiah/Random-Quotes-Project</a>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This HEX background color changing app was also short and sweet to complete. However, I did find the instructor's solution interesting. The idea was to make a random hex value created from an array of all the possible different hex values, loop through them, and concatenate 6 different values to a String that begun with the # character. In other words, once the HEX value string is created, you'd simply change the background color to that value just like in the <a href="https://jsbeginners.com/change-background-color-project/">change background color project</a>.</p>
+
+This Random Quotes project is fairly simple. It calls for you to access the properties on an object that's embedded inside of an Array. When the "Generate Quote" button is pressed, it triggers a change in quote and the author who said it.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>New things learned or refreshed:</strong></p>
+
+<strong>New things learned or refreshed:</strong>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>I learned that the simplest solution is probable the best solution. I spent a lot of time trying to figure out the best way to create a HEX value with creating an array. But, turns out the array was a pretty simple solution. <strong>Lines of code: </strong> 19 lines of code. <strong>Time to code:</strong></p>
+
+This project was fairly simple. However, John wrote out his solution using an immediately invoked function expression (IIFE). So, I changed my solution to do the same. It feels good learning how and why IIFEs can be useful. He makes sure to continually explain their purpose, which is to wrap our functions in IIFEs so we won't contaminate the global variable space.
+
+<strong>Time to code:</strong>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This took about 7 minutes to code.</p>
+
+This took about 5 minutes to code.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p><strong>Biggest take away:</strong></p>
+
+<strong>Biggest take away:</strong>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>KISS. Keep it Simple. Make a working solution. Refactor if you must, later.</p>
+
+None really. It's good to see IIFEs being used on small problems so when I see them on larger problems, or in libraries like jQuery, I have a good guess as to why they exist.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -34,16 +53,21 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p><strong>What to accomplish: </strong></p>
+
+<strong>What to accomplish: </strong>
+
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol>
-<li>Download the source code from the Github repository above.</li>
-<li>Delete the <code>app.js</code> file.</li>
-<li>Implement the JavaScript code in your own <code>app.js file.</code></li>
-<li>Every time the button is clicked, the background should changes color and you should show the Hex value of the color.</li>
-<li>Add a link to your finished project below!</li>
+ 	<li>Download the source code from the github repository above.</li>
+ 	<li>Delete the contents of the <code>app.js</code> file (<strong>except for the  quotes and author content of the array)</strong>.</li>
+ 	<li>Implement the JavaScript code in your own <code>app.js file.</code></li>
+ 	<li>Add a link to your finished project below!</li>
+</ol>
+What you should see:
+<ol>
+ 	<li> When you click on the "Generate" button, you should see a new random quote and the corresponding author.</li>
 </ol>
 <!-- /wp:list -->
 
