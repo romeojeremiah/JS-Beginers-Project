@@ -1,51 +1,47 @@
-<strong><img class="aligncenter size-full wp-image-131" src="https://jsbeginners.com/wp-content/uploads/2019/05/random-quote-javascript-project.png" alt="random quote javascript project" width="600" height="600" /></strong>
-
-<strong>Hosted Project: </strong><a href="https://romeojeremiah.github.io/Random-Quotes-Project/">https://romeojeremiah.github.io/Random-Quotes-Project/</a>
-
+<h3><img class="aligncenter size-full wp-image-153" src="https://jsbeginners.com/wp-content/uploads/2019/05/image-slider-javascript-project.png" alt="image slider javascript project" width="600" height="420" /> <strong>Hosted Project</strong></h3>
+<p><a href="https://romeojeremiah.github.io/Background-Image-Slider-Project/">https://romeojeremiah.github.io/Background-Image-Slider-Project/</a></p>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-
-<strong>Github Source Files: </strong><a href="https://github.com/romeojeremiah/Random-Quotes-Project">https://github.com/romeojeremiah/Random-Quotes-Project</a>
-
+<h3><strong>Github Source Files</strong></h3>
+<p><a href="https://github.com/romeojeremiah/Background-Image-Slider-Project">https://github.com/romeojeremiah/Background-Image-Slider-Project</a></p>
+<h3><strong>JavaScript Used</strong></h3>
+<ul>
+<li>DOM Manipulation</li>
+<li>Control Structures</li>
+<li>Arrays</li>
+<li>Array.forEach()</li>
+<li>JavaScript CSS Manipulation</li>
+<li>eventListeners</li>
+</ul>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-This Random Quotes project is fairly simple. It calls for you to access the properties on an object that's embedded inside of an Array. When the "Generate Quote" button is pressed, it triggers a change in quote and the author who said it.
-
+<h3><strong>Project Description/Summary</strong></h3>
+<p> This project is very similar to the <a href="https://jsbeginners.com/testimonials-project">Testimonials JavaScript Project.</a> I did find it a lot easier, however. For this image slider, when an arrow is clicked, the next image in the array shows up.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-<strong>New things learned or refreshed:</strong>
-
+<h3><strong>New Things Learned or Refreshed</strong></h3>
+<p>Before doing this project, I didn't realize how easy it was to make a slider project. I thought it was just a jQuery thing. Turns out I was wrong.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-This project was fairly simple. However, John wrote out his solution using an immediately invoked function expression (IIFE). So, I changed my solution to do the same. It feels good learning how and why IIFEs can be useful. He makes sure to continually explain their purpose, which is to wrap our functions in IIFEs so we won't contaminate the global variable space.
-
-<strong>Time to code:</strong>
-
+<h3><strong>Time to Code</strong></h3>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-This took about 5 minutes to code.
-
+<p>This took about 15 minutes to code</p>
+<h3><strong>Lines of Code</strong></h3>
+<p>This took me 35 lines of code.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-<strong>Biggest take away:</strong>
-
+<h3><strong>Biggest Take Away(s)</strong></h3>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-
-None really. It's good to see IIFEs being used on small problems so when I see them on larger problems, or in libraries like jQuery, I have a good guess as to why they exist.
-
+<p>Image sliders aren't a jQuery thing. All I had to do was access different images from inside of an array. And to make accessing each image easier, I just needed to make sure images had the same name but different numbers so they can be accessed by an index.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -53,26 +49,26 @@ None really. It's good to see IIFEs being used on small problems so when I see t
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-
-<strong>What to accomplish: </strong>
-
+<h3><strong>What to Accomplish</strong></h3>
 <!-- /wp:paragraph -->
 
 <!-- wp:list {"ordered":true} -->
 <ol>
- 	<li>Download the source code from the github repository above.</li>
- 	<li>Delete the contents of the <code>app.js</code> file (<strong>except for the  quotes and author content of the array)</strong>.</li>
- 	<li>Implement the JavaScript code in your own <code>app.js file.</code></li>
- 	<li>Add a link to your finished project below!</li>
+<li>Download the source code from the github repository above.</li>
+<li>Delete the contents of the <code>app.js</code> file.</li>
+<li>Implement the JavaScript code in your own <code>app.js file.</code></li>
+<li>Add a link to your finished project below!</li>
 </ol>
-What you should see:
+<h3><strong>What You Should See</strong></h3>
 <ol>
- 	<li> When you click on the "Generate" button, you should see a new random quote and the corresponding author.</li>
+<li>A default image should be displayed when you load the page.</li>
+<li>When you click the "left" button, one of five images should display, all the way until each of the five numbers display in sequence.</li>
+<li>Repeat step 2 for the "right" button.</li>
 </ol>
 <!-- /wp:list -->
 
 <!-- wp:html -->
 <blockquote>
 <h2 style="text-align: center;">Need to see the video solution for this project?</h2>
-<h2 style="text-align: center;">Get John's <a href="https://www.udemy.com/javascript-tutorial-for-beginners-w/">JavaScript Tutorial and Projects Course</a> now!</h2>
+<h2 style="text-align: center;">Get John's <a href="https://www.udemy.com/javascript-tutorial-for-beginners-w/">JavaScript Tutorial and Projects Course</a></h2>
 </blockquote>
