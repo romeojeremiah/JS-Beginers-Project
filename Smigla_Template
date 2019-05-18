@@ -1,47 +1,54 @@
-<h3><img class="aligncenter size-full wp-image-153" src="https://jsbeginners.com/wp-content/uploads/2019/05/image-slider-javascript-project.png" alt="image slider javascript project" width="600" height="420" /> <strong>Hosted Project</strong></h3>
-<p><a href="https://romeojeremiah.github.io/Background-Image-Slider-Project/">https://romeojeremiah.github.io/Background-Image-Slider-Project/</a></p>
+<h2><strong>Hosted Project</strong></h2>
+<a href="https://romeojeremiah.github.io/Background-Image-Slider-Project/">https://romeojeremiah.github.io/Background-Image-Slider-Project/</a>
+
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<h3><strong>Github Source Files</strong></h3>
-<p><a href="https://github.com/romeojeremiah/Background-Image-Slider-Project">https://github.com/romeojeremiah/Background-Image-Slider-Project</a></p>
-<h3><strong>JavaScript Used</strong></h3>
+<h2><strong>Github Source Files</strong></h2>
+<a href="https://github.com/romeojeremiah/Background-Image-Slider-Project">https://github.com/romeojeremiah/Background-Image-Slider-Project</a>
+<h2><strong>JavaScript Used</strong></h2>
 <ul>
-<li>DOM Manipulation</li>
-<li>Control Structures</li>
-<li>Arrays</li>
-<li>Array.forEach()</li>
-<li>JavaScript CSS Manipulation</li>
-<li>eventListeners</li>
+ 	<li>DOM Manipulation</li>
+ 	<li>Control Structures</li>
+ 	<li>Arrays</li>
+ 	<li>Array.forEach()</li>
+ 	<li>JavaScript CSS Manipulation</li>
+ 	<li>eventListeners</li>
 </ul>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<h3><strong>Project Description/Summary</strong></h3>
-<p> This project is very similar to the <a href="https://jsbeginners.com/testimonials-project">Testimonials JavaScript Project.</a> I did find it a lot easier, however. For this image slider, when an arrow is clicked, the next image in the array shows up.</p>
+<h2><strong>Project Description/Summary</strong></h2>
+This project is very similar to the <a href="https://jsbeginners.com/testimonials-project">Testimonials JavaScript Project.</a> I did find it a lot easier, however. For this image slider, when an arrow is clicked, the next image in the array shows up.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<h3><strong>New Things Learned or Refreshed</strong></h3>
-<p>Before doing this project, I didn't realize how easy it was to make a slider project. I thought it was just a jQuery thing. Turns out I was wrong.</p>
+<h2><strong>New Things Learned or Refreshed</strong></h2>
+Before doing this project, I didn't realize how easy it was to make a slider project. I thought it was just a jQuery thing. Turns out I was wrong.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<h3><strong>Time to Code</strong></h3>
+<h2><strong>Time to Code</strong></h2>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This took about 15 minutes to code</p>
-<h3><strong>Lines of Code</strong></h3>
-<p>This took me 35 lines of code.</p>
+
+This took about 15 minutes to code
+<h2><strong>Lines of Code</strong></h2>
+This took me 35 lines of code.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<h3><strong>Biggest Take Away(s)</strong></h3>
+<h2><strong>Biggest Take Away(s)</strong></h2>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Image sliders aren't a jQuery thing. All I had to do was access different images from inside of an array. And to make accessing each image easier, I just needed to make sure images had the same name but different numbers so they can be accessed by an index.</p>
+
+Image sliders aren't a jQuery thing. All I had to do was access different images from inside of an array. And to make accessing each image easier, I just needed to make sure images had the same name but different numbers so they can be accessed by an index.
+
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -54,16 +61,16 @@
 
 <!-- wp:list {"ordered":true} -->
 <ol>
-<li>Download the source code from the github repository above.</li>
-<li>Delete the contents of the <code>app.js</code> file.</li>
-<li>Implement the JavaScript code in your own <code>app.js file.</code></li>
-<li>Add a link to your finished project below!</li>
+ 	<li>Download the source code from the github repository above.</li>
+ 	<li>Delete the contents of the <code>app.js</code> file.</li>
+ 	<li>Implement the JavaScript code in your own <code>app.js file.</code></li>
+ 	<li>Add a link to your finished project below!</li>
 </ol>
 <h3><strong>What You Should See</strong></h3>
 <ol>
-<li>A default image should be displayed when you load the page.</li>
-<li>When you click the "left" button, one of five images should display, all the way until each of the five numbers display in sequence.</li>
-<li>Repeat step 2 for the "right" button.</li>
+ 	<li>A default image should be displayed when you load the page.</li>
+ 	<li>When you click the "left" button, one of five images should display, all the way until each of the five numbers display in sequence.</li>
+ 	<li>Repeat step 2 for the "right" button.</li>
 </ol>
 <!-- /wp:list -->
 
