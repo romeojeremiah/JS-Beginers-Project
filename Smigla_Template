@@ -1,32 +1,30 @@
 <h2>Hosted Project</h2>
-<p><a href="https://romeojeremiah.github.io/Testimonials-Project/">https://romeojeremiah.github.io/Testimonials-Project/</a></p>
+<p><a href="https://romeojeremiah.github.io/Filter-Project/">https://romeojeremiah.github.io/Filter-Project/</a></p>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
 <h2>Github Source Files</h2>
-<p><a href="https://github.com/romeojeremiah/Testimonials-Project">https://github.com/romeojeremiah/Testimonials-Project</a></p>
+<p><a href="https://github.com/romeojeremiah/Filter-Project">https://github.com/romeojeremiah/Filter-Project</a></p>
 <h2>JavaScript Used</h2>
 <ul>
 <li>DOM Manipulation</li>
 <li>Control Structures</li>
-<li>Arrays</li>
 <li>Array.forEach()</li>
 <li>JavaScript CSS Manipulation</li>
 <li>eventListeners</li>
 <li>Immediately Invoked Function Expressions</li>
-<li>Object Constructors</li>
-<li>Event Bubbling</li>
 </ul>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <h2>Project Description/Summary</h2>
-<p>This project seems to combines two of the previous completed projects. It involves pieces of the <a href="https://jsbeginners.com/background-image-slider-project/">Background Image Slider JavaScript Project</a> and the <a href="https://jsbeginners.com/random-quotes-project/">Random Quotes JavaScript Project</a>.  This project can easily be completed using an array of objects, but John adds a bit of complexity (if you're a beginner) to the project by using a Constructor function.</p>
+<p>This project involves wiring up two different sections. The first section is the filter buttons, whose purposes are to filter the store items by class. The first section is the search filter, whose purpose is to filter the store items by a search. </p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <h2>New Things Learned or Refreshed</h2>
-<p>It was nice to see how Object Constructors are used in real projects. This project used a function that made a call to an Object Constructor. On the surface, it made the project a bit more complex than it had to be, but I now see the value of using a function to create a new instance an Object. This project also focused on selecting the parent element from the DOM to register the click element of a child element that contained a specific CSS class as opposed to selecting the button element.</p>
+<p>This project involved the use of using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset">HTML5 dataset property</a> to select items from the project's store. This was only the second time I used it and I have a better understanding of how I can use JavaScript to retrieve data from HTML elements. "The <code><strong>dataset</strong></code> property on the <a title="The HTMLElement interface represents any HTML element. Some elements directly implement this interface, while others implement it via an interface that inherits it." href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement"><code>HTMLElement</code></a> interface provides read/write access to all the <a title="https://developer.mozilla.org/en/HTML/Global_attributes#attr-data-*" href="https://developer.mozilla.org/en/HTML/Global_attributes#attr-data-*">custom data attributes</a> (<code>data-*</code>) set on the element." In other words, as I understand it, to use JavaScript to retrieve HTML elements with a attribute of <code>data-user = "hello"</code>, you have to use <code>HTMLElement.dataset.user</code> to return the string "hello".</p>
+<p>I also learned the <code>event.PreventDefault()</code> method works to prevent the default behavior of in-page links. The default behavior sends the user to the top of the page after a link lower in the page is clicked. Previously, I only used the <code>event.PreventDefault()</code> to prevent the default behavior of form submissions.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -34,9 +32,9 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>This took about 20 minutes to code.</p>
+<p>This took about 30 minutes to code. As you'll see in my GitHub repository, I coded the first section using a bunch of if-else statements. It worked, but I knew there had to be a better way. So, I watched John's solution and sure enough he simply added an event listener to each store item. Duh. </p>
 <h2>Lines of Code</h2>
-<p>This took me 59 lines of code.</p>
+<p>This took about 40 lines of code.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -44,7 +42,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Object Constructors are not bad once you learn how to use them in small projects. I'm glad John switched it up in his solution.</p>
+<p>Retrieving elements from the DOM using the dataset property is no more complicated than using the querySelector() method.  The difference is only a matter of how they are accessed. In this case, the properties were accessed by targeting the elements who had a given data property.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -60,14 +58,13 @@
 <li>Download the source code from the github repository above.</li>
 <li>Delete the contents of the <code>app.js</code> file.</li>
 <li>Implement the JavaScript code in your own <code>app.js file.</code></li>
+<li>If you think you need to see a video solution first, be sure to pick up John's <a href="https://www.udemy.com/javascript-tutorial-for-beginners-w/">JavaScript Tutorial and Projects Course</a>.</li>
 <li>Add a link to your finished project below!</li>
 </ol>
 <h2>What You Should See</h2>
 <ol>
-<li>A default image should be displayed when you load the page.</li>
-<li>When you click the "left" button, one of five images should display, all the way until each of the five images display in sequence.</li>
-<li>Repeat step 2 for the "right" button.</li>
-<li>If the user continues to click the left or right button, the images should reset once it passes the first image in the array.</li>
+<li>In the "Our Store" section of the website, when you click on a given button, only the described items should show in the store.</li>
+<li>When you use the search function in the "Our Store" section of the website, only the case-insensitive searched items should show by name.</li>
 </ol>
 <!-- /wp:list -->
 
